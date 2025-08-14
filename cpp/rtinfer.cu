@@ -4,7 +4,7 @@
 basemod::basemod()
 {
     assert(cudaSetDevice(0) == cudaSuccess);
-    this->path="../../file/engine.trt";
+    this->path="../file/engine.trt";
 
     using namespace std;
     using namespace nvinfer1;
