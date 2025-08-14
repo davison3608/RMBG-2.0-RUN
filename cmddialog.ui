@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>cmdDialog</class>
+ <widget class="QDialog" name="cmdDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>322</width>
+    <height>44</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QLineEdit" name="cmdEdit">
+     <property name="text">
+      <string>输入指令</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="closeButton">
+     <property name="text">
+      <string>savecmd</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
