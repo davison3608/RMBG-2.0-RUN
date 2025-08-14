@@ -9,4 +9,10 @@ OpenCV 3.4
 
 CUDA 加速的前后处理  
 
-![image](show.png)
+![image](show.png)  
+
+fp16精度测试
+
+![image](test2.jpg)  
+
+![image](out.jpg)  
